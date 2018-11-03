@@ -1,7 +1,7 @@
 <h1>Presidents Alphabetically in ascending order (A-Z)</h1>
 <br><br>
 <ul>
-  <h2 *ngIf="!asc$">Loading...</h2>
+  <h1 *ngIf="!asc$">Loading...</h1>
   <li *ngFor="let president of asc$">
     <h2>{{president.president}}</h2>
     <ul>
