@@ -1,7 +1,7 @@
 <h1>Presidents Alphabetically in descending order (Z-A)</h1>
 <br><br>
 <ul>
-  <li *ngIf="!desc$">Please wait, if the heroku server is unused for a while it gets unloaded (from the server memory)</li>
+  <h2 *ngIf="!desc$">Loading...</h2>
   <li *ngFor="let president of desc$">
     <h2>{{president.president}}</h2>
     <ul>
