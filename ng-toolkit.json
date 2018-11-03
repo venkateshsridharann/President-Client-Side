@@ -1,0 +1,17 @@
+{
+  "universal": {
+    "project": "leaders",
+    "skipInstall": false,
+    "directory": "."
+  },
+  "serverless": {
+    "provider": "aws",
+    "project": "leaders",
+    "skipInstall": false,
+    "directory": ".",
+    "serverless": {
+      "aws": {},
+      "gcloud": {}
+    }
+  }
+}
